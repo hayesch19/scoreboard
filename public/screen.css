@@ -50,6 +50,10 @@ button {
   margin-bottom: 1rem;
 }
 
+.hide {
+  display: none;
+}
+
 .teams {
   display: flex;
   justify-content: space-around;
