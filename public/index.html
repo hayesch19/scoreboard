@@ -6,9 +6,23 @@
     <title>Scoreboard</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>My Score Board</h1>
+    <div class="header">
+      <h1 class="blernsball">Blernsball</h1>
+      <h1>Score Board</h1>
+    </div>
+    <section class="innings">
+      <h2 class="inning">Inning</h2>
+      <p class="current-inning">0</p>
+      Update Inning
+      <button class="inning-add-1-button">Add 1</button>
+      <button class="inning-subtract-1-button">Subtract 1</button>
+    </section>
     <section class="teams">
       <section class="team one">
         <section>
@@ -17,14 +31,14 @@
         </section>
         <section>
           <section>
-            update team 1 name
+            Update Team 1 Name
             <input type="text" class="team-1-input" />
             <button class="update-team-1-name">Update</button>
           </section>
           <section>
-            update team 1 score
-            <button class="team-1-add-1-button">add 1</button>
-            <button class="team-1-subtract-1-button">subtract 1</button>
+            Update Team 1 Score
+            <button class="team-1-add-1-button">Add 1</button>
+            <button class="team-1-subtract-1-button">Subtract 1</button>
           </section>
         </section>
       </section>
@@ -36,18 +50,21 @@
 
         <section>
           <section>
-            update team 2 name
+            Update Team 2 Name
             <input type="text" class="team-2-input" />
             <button class="update-team-2-name">Update</button>
           </section>
           <section>
-            update team 2 score
-            <button class="team-2-add-1-button">add 1</button>
-            <button class="team-2-subtract-1-button">subtract 1</button>
+            Update Team 2 Score
+            <button class="team-2-add-1-button">Add 1</button>
+            <button class="team-2-subtract-1-button">Subtract 1</button>
           </section>
         </section>
       </section>
     </section>
+    <footer>
+      <img class="logo" src="./images/Blernsball.png" alt="blernsball" />
+    </footer>
 
     <script src="/main.js" charset="utf-8"></script>
   </body>

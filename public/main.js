@@ -68,3 +68,26 @@ const updateTeam2Name = () => {
 document
   .querySelector('.update-team-2-name')
   .addEventListener('click', updateTeam2Name)
+
+//* ***************************************************
+// Add 1 Inning
+const addInning = () => {
+  let currentInning = document.querySelector('.current-inning').textContent
+  console.log('Add-Inn', currentInning)
+  currentInning = parseInt(currentInning) + 1
+  document.querySelector('.current-inning').textContent = currentInning
+}
+document
+  .querySelector('.inning-add-1-button')
+  .addEventListener('click', addInning)
+
+// Subtract 1 Inning
+const subtractInning = () => {
+  let currentInning = document.querySelector('.current-inning').textContent
+  console.log('Sub-Inn', currentInning)
+  currentInning = parseInt(currentInning) - 1
+  document.querySelector('.current-inning').textContent = currentInning
+}
+document
+  .querySelector('.inning-subtract-1-button')
+  .addEventListener('click', subtractInning)

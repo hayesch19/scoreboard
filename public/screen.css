@@ -12,8 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: whitesmoke;
-  color: rgb(14, 14, 14);
+  background-color: #4abcf1;
+  color: gold;
+  padding-bottom: 3rem;
+  font-family: 'Orbitron', sans-serif;
 }
 
 body,
@@ -23,6 +25,29 @@ html {
 
 h1 {
   text-align: center;
+  padding: 1rem;
+  margin: 0;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  background-color: gold;
+  color: #4abcf1;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.3rem;
+}
+
+/****** Classes ******/
+
+.header {
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .teams {
@@ -36,16 +61,25 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
   padding: 0.5rem;
 }
 
-.team h2 {
-  font-size: 2rem;
-}
-
+.current-inning,
 .team-1-score,
 .team-2-score {
   text-align: center;
   font-size: 5rem;
+  margin: 1rem;
+}
+
+.innings {
+  border: solid 5px gold;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 6rem;
 }
